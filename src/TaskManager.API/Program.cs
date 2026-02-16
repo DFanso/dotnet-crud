@@ -1,10 +1,10 @@
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 using TaskManager.API.Extensions;
 using TaskManager.API.Middleware;
 using TaskManager.Application;
 using TaskManager.Infrastructure.DependencyInjection;
 using TaskManager.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
