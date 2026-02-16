@@ -1,5 +1,8 @@
 # TaskManager API (.NET 8 + EF Core + PostgreSQL + JWT)
 
+[![CI](https://github.com/DFanso/dotnet-crud/actions/workflows/ci.yml/badge.svg)](https://github.com/DFanso/dotnet-crud/actions/workflows/ci.yml)
+[![Code Quality](https://github.com/DFanso/dotnet-crud/actions/workflows/quality.yml/badge.svg)](https://github.com/DFanso/dotnet-crud/actions/workflows/quality.yml)
+
 A production-ready RESTful API built with Clean Architecture principles for managing todo items with user authentication and authorization.
 
 ## Tech Stack
