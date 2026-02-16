@@ -38,5 +38,10 @@ csharp_style_expression_bodied_properties = when_on_single_line:suggestion
 csharp_style_expression_bodied_indexers = when_on_single_line:suggestion
 csharp_style_namespace_declarations = file_scoped:suggestion
 
+# Meziantou.Analyzer baseline tuning
+dotnet_diagnostic.MA0004.severity = none
+dotnet_diagnostic.MA0048.severity = none
+dotnet_diagnostic.MA0051.severity = none
+
 [*.{csproj,sln,props,targets,json,yml,yaml,md}]
 indent_size = 2
