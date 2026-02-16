@@ -14,8 +14,7 @@ public sealed class TodoRepository : ITodoRepository
             db.TodoItems
                 .AsTracking()
                 .Where(x => x.Id == todoId && x.UserId == userId)
-                .Select(x => (TodoItem?)x)
-                .Take(1));
+                .Select(x => (TodoItem?)x));
 
     private readonly AppDbContext _dbContext;
 
