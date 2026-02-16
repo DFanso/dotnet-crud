@@ -104,6 +104,36 @@ Expected output:
 
 Open your browser: **http://localhost:5018/swagger**
 
+## Run with Docker
+
+### Prerequisites
+
+- Docker Desktop (or Docker Engine + Compose)
+
+### Start API + PostgreSQL
+
+```bash
+docker compose up --build
+```
+
+This starts:
+
+- API at `http://localhost:5018`
+- Swagger at `http://localhost:5018/swagger`
+- PostgreSQL on `localhost:5432`
+
+### Stop containers
+
+```bash
+docker compose down
+```
+
+To also remove the Postgres volume:
+
+```bash
+docker compose down -v
+```
+
 ## API Endpoints
 
 ### Authentication (Public)
